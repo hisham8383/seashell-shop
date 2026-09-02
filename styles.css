@@ -30,7 +30,7 @@ body{
   margin:0;
   font-family: var(--font-body);
   color: var(--ink);
-  background: var(--cream);
+  background: var(--sand);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -279,7 +279,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
 }
 
 /* ===== Story ===== */
-.story{ padding: 130px 0 110px; background: var(--cream); }
+.story{ padding: 130px 0 110px; background: var(--sand); }
 .story-grid{
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -324,7 +324,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
 .story-copy p{ color: var(--brown); }
 
 /* ===== Collections ===== */
-.collections{ padding: 110px 0; background: var(--cream); }
+.collections{ padding: 110px 0; background: var(--sand); }
 .collections h2{ max-width: 640px; margin-left:auto; margin-right:auto; }
 
 .collection-cards{
@@ -334,7 +334,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
   margin-top: 60px;
 }
 .collection-card{
-  background: var(--sand);
+  background: var(--cream);
   border-radius: var(--radius);
   overflow:hidden;
   box-shadow: 0 24px 50px -28px rgba(59,42,32,0.35);
@@ -416,7 +416,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
 }
 
 /* ===== Gallery ===== */
-.gallery{ padding: 110px 0; background: var(--cream); }
+.gallery{ padding: 110px 0; background: var(--sand); }
 .gallery-grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -435,14 +435,14 @@ p{ margin: 0 0 1em; color: var(--brown); }
 .gallery-grid img:nth-child(5){ grid-row: span 2; height: 100%; }
 
 /* ===== Visit ===== */
-.visit{ padding: 100px 0; background: var(--cream); }
+.visit{ padding: 100px 0; background: var(--sand); }
 .visit-grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 .visit-card{
-  background: var(--sand);
+  background: var(--cream);
   padding: 40px 30px;
   border-radius: var(--radius);
   text-align:center;
@@ -456,7 +456,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
 }
 
 /* ===== Contact ===== */
-.contact{ padding: 120px 0 140px; background: var(--cream); }
+.contact{ padding: 120px 0 140px; background: var(--sand); }
 .contact-inner{ max-width: 680px; }
 .contact-sub{ color: var(--brown-soft); margin-bottom: 50px; }
 
@@ -464,7 +464,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
   display:flex;
   flex-direction:column;
   gap: 22px;
-  background: var(--sand);
+  background: var(--cream);
   padding: 40px;
   border-radius: var(--radius);
   box-shadow: 0 24px 50px -30px rgba(59,42,32,0.35);
@@ -486,7 +486,7 @@ p{ margin: 0 0 1em; color: var(--brown); }
   padding: 13px 16px;
   border-radius: 10px;
   border: 1px solid rgba(138,106,38,0.25);
-  background: var(--cream);
+  background: var(--sand);
   color: var(--ink);
   resize: vertical;
 }
